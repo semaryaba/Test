@@ -1218,6 +1218,7 @@
   <catalogs>Catalog.РСВ_КонтактныеЛица</catalogs>
   <catalogs>Catalog.РСВ_Должности</catalogs>
   <catalogs>Catalog.РСВ_ДоставкаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.НовыйТестовыйСправочник</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
