@@ -70,4 +70,5 @@
   <content>Report.ДлительностьОтложенногоОбновления</content>
   <content>Catalog.РСВ_КонтактныеЛица</content>
   <content>Catalog.РСВ_Должности</content>
+  <content>Catalog.НовыйТестовыйСправочник</content>
 </mdclass:Subsystem>
