@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71e74297-bb49-4529-8b45-04bd849a3c38">
+  <producedTypes>
+    <objectType typeId="682fb99b-0072-4835-9c4a-bdeaa64964ea" valueTypeId="7cf1ac87-939d-4e09-b43c-c3f6813dc84f"/>
+    <refType typeId="020d47d0-07c5-4369-bdf9-535ef744c2ed" valueTypeId="6db66253-ba12-4410-9ca1-714a9a2fb73b"/>
+    <selectionType typeId="aadcda62-bc53-42fd-82da-37216c983654" valueTypeId="b36f5cf1-8e09-4c70-b9cd-2869ff5cec69"/>
+    <listType typeId="071e38f5-8788-474f-852f-6e4af21fe953" valueTypeId="90d1f0dc-5fac-4ba0-ac8a-d2800031b2ed"/>
+    <managerType typeId="bee3191a-658c-42b0-a90e-aa804f814202" valueTypeId="77a80b04-09bd-4d0b-acae-b321b671ab02"/>
+  </producedTypes>
+  <name>РСВ_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РСВ_Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РСВ_Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="fdce3c1e-0ff7-4cb6-90df-716d741f0f92">
+      <name>ЗаместительРуководителя</name>
+      <description>Заместитель руководителя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="670a33f4-86ab-4f60-b2a9-effe0d669d7e">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="dfb85d09-ec24-4df3-b756-1940cb43b6a8">
+      <name>ПомощникРуководителя</name>
+      <description>Помощник руководителя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="83db86dd-88ea-4205-8cc5-d022996f74e0">
+      <name>Руководитель</name>
+      <description>Руководитель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
